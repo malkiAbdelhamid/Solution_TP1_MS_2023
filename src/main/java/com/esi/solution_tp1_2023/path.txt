@@ -1,0 +1,31 @@
+1.GET==> http://localhost:8081/rsu/departement/employe-projet?dn=production
+
+2.POSt ==> http://localhost:8081/rsu/employe?iddepart=1
+{
+    "nom":"amine",
+    "genre":"Mr",
+    "dateEmbauche":"2022-10-10",
+    "email":"e22@h.com",
+     "diplome":{
+         "niveau":"bac+2",
+         "specialite":"informatique",
+         "anneeObtention":"2021"
+     }
+}
+
+
+
+3.POSt ==> http://localhost:8081/rsu/employe2
+{
+    "nom":"amine",
+    "genre":"Mr",
+    "dateEmbauche":"2022-10-10",
+    "email":"e22@h.com",
+     "diplome":{
+         "niveau":"bac+2",
+         "specialite":"informatique",
+         "anneeObtention":"2021"
+     },
+
+     "iddepart":"1"
+}
